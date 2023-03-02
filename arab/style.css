@@ -6,16 +6,7 @@ h1{
 }
 img{
    display: block;
-   width: 800px;
+   width: 400px;
    margin: 0 auto;
    transition: 0.3s;
-}
-img{
-    width: 400px;
-    height: auto;
-}
-
-img{
-    width: 300px;
-    height: auto;
 }

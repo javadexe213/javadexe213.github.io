@@ -36,3 +36,10 @@ body{
 @keyframes typing{
     from { width: 0; }
 }
+.link{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 255px;
+    font-size: 30px;
+}

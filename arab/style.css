@@ -18,7 +18,8 @@ img{
    width: 400px;
    margin: 0 auto;
    transition: 0.3s;
-   padding-bottom: 10rem;
+   position:relative;
+   bottom: 50px;
 }
 body
 {

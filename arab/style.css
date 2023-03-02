@@ -24,6 +24,7 @@ img{
 }
 body
 {
+    font-family: "Balsamiq Sans", cursive;
     min-height: 100vh;
     background: #0c192c;
 }

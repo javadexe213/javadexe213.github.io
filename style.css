@@ -3,7 +3,11 @@
     padding: 0;
 }
 .container{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
 }
 body{
     position: absolute;
@@ -42,4 +46,7 @@ body{
     text-decoration: none;
     padding-left: 255px;
     font-size: 30px;
+}
+.link:hover{
+    font-size: 25px;
 }

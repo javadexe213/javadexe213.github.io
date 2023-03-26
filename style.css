@@ -9,6 +9,10 @@
     flex-direction: column;
 
 }
+html{
+    height: -webkit-fill-available;
+    font-size: 62.5%;
+}
 body{
     position: absolute;
     top: 50%;
@@ -21,12 +25,23 @@ body{
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
+    height: -webkit-fill-available;
 }
 .text{
     color: white;
-    font-size: 4em;
     letter-spacing: 15px;
     font-family: monospace;
     width: 100%;
-    font-size: 25px;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:332px){
+    html{
+        font-size: 40%
+    } 
+}
+@media screen and (max-width:261px){
+    html{
+        font-size: 30%
+    } 
 }
